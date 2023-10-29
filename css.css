@@ -1,0 +1,110 @@
+html,
+body {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 9em;
+    margin-right: 5em;
+    padding: 0;
+}
+.card {
+    width: 600px;
+    height: 635px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px ;
+    padding-right: 30px;
+    border: 5px solid black;
+}
+h3{
+    padding: 10px;
+    background-color: #f7f7f7;
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card_price{
+    padding-top: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+.card_delivery{
+    text-transform: uppercase;
+    font-size: x-small;
+    color: #777;
+}
+.card_text{
+    padding-top: 15px;
+}
+.card_shapes{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    padding-left: 0;
+}
+.card_shapes>li {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.square_black{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}
+.square_blue{
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+}
+.square_red{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+}
+.square_yellow{
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+}
+.square_green{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+}
+.square_brown{
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+}
+.card_details{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card_list{
+    padding-left: 0;
+}
+.card_list{
+    margin-left: 15px;
+}
+.card_add{
+    font-size: large;
+    text-transform: uppercase;
+    color: #f7f7f7;
+    background-color: black;
+    min-height:45px;
+    min-width: 600px;
+}
+.title{
+    margin-top: 50px;
+    font-size: smaller;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #f7f7f7;
+    width: 105px;
+    height: 20px;
+    background-color: red;
+}
